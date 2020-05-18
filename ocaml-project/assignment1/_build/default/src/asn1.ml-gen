@@ -1,0 +1,2 @@
+(** @canonical Asn1.Assignment1 *)
+module Assignment1 = Asn1__Assignment1

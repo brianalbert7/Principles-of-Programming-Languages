@@ -1,0 +1,84 @@
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Runner: sequential
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Chooser: simple
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration suite_name = "public"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration cache_filename = "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment1\\_build\\default\\test\\oUnit-$(suite_name).cache"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration run_gc_full_major = "true"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration display = "true"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration results_style_1_X = "false"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration testdata_dir = "none"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration health_check_interval = "1."
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration verbose = "false"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration chooser = "simple"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_html_dir = "none"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration processes_kill_period = "5."
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration runner = "sequential"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration shards = "2"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration processes_grace_period = "5."
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration log_encoding = "utf-8"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_junit_file = "none"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration ci = "false"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_file = "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment1\\_build\\default\\test\\oUnit-$(suite_name)-$(shard_id).log"
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:0:assignment_1_1.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:0:assignment_1_1 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:0:assignment_1_1.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:1:assignment_1_2.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:1:assignment_1_2 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:1:assignment_1_2.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:2:assignment_1_3.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Test public:2:assignment_1_3 exited with an error.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Failure("IncorrectRange") in test public:2:assignment_1_3.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Raised at file "src/assignment1.ml", line 19, characters 7-39
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "test/public.ml", line 23, characters 28-37
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: 
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:2:assignment_1_3.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:3:assignment_1_4.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:3:assignment_1_4 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:3:assignment_1_4.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:4:assignment_1_5.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Test public:4:assignment_1_5 has failed.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: not equal in test public:4:assignment_1_5.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: 
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:4:assignment_1_5.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:5:assignment_1_6.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:5:assignment_1_6 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:5:assignment_1_6.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:6:assignment_1_7.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:6:assignment_1_7 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:6:assignment_1_7.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:7:assignment_1_8.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:7:assignment_1_8 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:7:assignment_1_8.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:8:assignment_1_9.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:8:assignment_1_9 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: End test public:8:assignment_1_9.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: ==============
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Summary:
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:8:assignment_1_9 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:7:assignment_1_8 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:6:assignment_1_7 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:5:assignment_1_6 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Test public:4:assignment_1_5 has failed.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: not equal in test public:4:assignment_1_5.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Raised at file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: 
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:3:assignment_1_4 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Test public:2:assignment_1_3 exited with an error.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Failure("IncorrectRange") in test public:2:assignment_1_3.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Raised at file "src/assignment1.ml", line 19, characters 7-39
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "test/public.ml", line 23, characters 28-37
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: Called from file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 E: 
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:1:assignment_1_2 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Test public:0:assignment_1_1 is successful.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Ran: 9 tests in: 0.01 seconds.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Cases: 9.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Tried: 9.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Errors: 1.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Failures: 1.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Skip: 0.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Todo: 0.
+2020-02-28T06:40:55+00:00 DESKTOP-EKKQ5PT#00 I: Timeout: 0.
