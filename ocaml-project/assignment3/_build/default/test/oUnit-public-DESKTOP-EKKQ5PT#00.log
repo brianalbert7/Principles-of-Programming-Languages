@@ -1,0 +1,90 @@
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Runner: sequential
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Chooser: simple
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration suite_name = "public"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration cache_filename = "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment3\\_build\\default\\test\\oUnit-$(suite_name).cache"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration run_gc_full_major = "true"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration display = "true"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration results_style_1_X = "false"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration testdata_dir = "none"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration health_check_interval = "1."
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration verbose = "false"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration chooser = "simple"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_html_dir = "none"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration processes_kill_period = "5."
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration runner = "sequential"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration shards = "2"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration processes_grace_period = "5."
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration log_encoding = "utf-8"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_junit_file = "none"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration ci = "false"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Configuration output_file = "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment3\\_build\\default\\test\\oUnit-$(suite_name)-$(shard_id).log"
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:0:assignment_1_1.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:0:assignment_1_1 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:0:assignment_1_1.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:1:assignment_1_2.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:1:assignment_1_2 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:1:assignment_1_2.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:2:assignment_1_3.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:2:assignment_1_3 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:2:assignment_1_3.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:3:assignment_1_4.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:3:assignment_1_4 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:3:assignment_1_4.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:4:assignment_1_5.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:4:assignment_1_5 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:4:assignment_1_5.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:5:assignment_1_6.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:5:assignment_1_6 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:5:assignment_1_6.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:6:assignment_1_7.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:6:assignment_1_7 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:6:assignment_1_7.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:7:assignment_1_8.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:7:assignment_1_8 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:7:assignment_1_8.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:8:assignment_2_1.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:8:assignment_2_1 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:8:assignment_2_1.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:9:assignment_2_2.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:9:assignment_2_2 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:9:assignment_2_2.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:10:assignment_2_3.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:10:assignment_2_3 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:10:assignment_2_3.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:11:assignment_2_4.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:11:assignment_2_4 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:11:assignment_2_4.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:12:assignment_2_5.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:12:assignment_2_5 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:12:assignment_2_5.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:13:assignment_2_6.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:13:assignment_2_6 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:13:assignment_2_6.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Start test public:14:assignment_2_7.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:14:assignment_2_7 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: End test public:14:assignment_2_7.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: ==============
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Summary:
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:14:assignment_2_7 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:13:assignment_2_6 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:12:assignment_2_5 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:11:assignment_2_4 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:10:assignment_2_3 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:9:assignment_2_2 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:8:assignment_2_1 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:7:assignment_1_8 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:6:assignment_1_7 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:5:assignment_1_6 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:4:assignment_1_5 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:3:assignment_1_4 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:2:assignment_1_3 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:1:assignment_1_2 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Test public:0:assignment_1_1 is successful.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Ran: 15 tests in: 0.01 seconds.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Cases: 15.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Tried: 15.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Errors: 0.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Failures: 0.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Skip: 0.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Todo: 0.
+2020-04-09T21:49:44+00:00 DESKTOP-EKKQ5PT#00 I: Timeout: 0.
