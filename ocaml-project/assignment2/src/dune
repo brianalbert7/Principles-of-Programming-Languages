@@ -1,0 +1,6 @@
+(ocamllex lambda_lexer)
+
+(ocamlyacc lambda_parser)
+
+(executable
+  (name assignment2))

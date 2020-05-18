@@ -1,0 +1,167 @@
+# C:\OCaml64\home\Brian\.opam\ocaml-variants.4.08.0+mingw64c\bin\dune.exe exec src/assignment2.exe
+# OCAMLPARAM: unset
+# Workspace root: "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment2"
+# Auto-detected concurrency: 4
+# disable binary cache
+$ C:\OCaml64\home\Brian\.opam\ocaml-variants.4.08.0+mingw64c\bin\ocamlc.opt.exe -config > C:\OCaml64\tmp\dune64491e.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ;
+#  toplevel_path =
+#    Some
+#      External
+#        "C:/OCaml64/home/Brian/.opam/ocaml-variants.4.08.0+mingw64c/lib/toplevel"
+#  ;
+#  ocaml_bin =
+#    External
+#      "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin"
+#  ;
+#  ocaml =
+#    External
+#      "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocaml.exe"
+#  ;
+#  ocamlc =
+#    External
+#      "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlc.opt.exe"
+#  ;
+#  ocamlopt =
+#    Some
+#      External
+#        "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlopt.opt.exe"
+#  ;
+#  ocamldep =
+#    External
+#      "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamldep.opt.exe"
+#  ;
+#  ocamlmklib =
+#    External
+#      "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlmklib.opt.exe"
+#  ;
+#  env =
+#    map
+#      {
+#      "DUNE_CONFIGURATOR" :
+#        "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlc.opt.exe"
+#      ; "INSIDE_DUNE" : "1"
+#      ;
+#      "MANPATH" :
+#        "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment2\\_build/install/default/bin"
+#      ; "OCAML_COLOR" : "always"
+#      ;
+#      "OCAMLFIND_IGNORE_DUPS_IN" :
+#        "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment2\\_build/install/default/lib"
+#      ;
+#      "OCAMLPATH" :
+#        "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment2\\_build/install/default/lib"
+#      ; "OPAMCOLOR" : "always"
+#      }
+#  ;
+#  findlib_path =
+#    [
+#    External
+#      "C:\\\\OCaml64\\\\home\\\\Brian\\\\.opam\\\\ocaml-variants.4.08.0+mingw64c\\lib"
+#    ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; opam_vars = map {}
+#  ;
+#  ocaml_config =
+#    { version = "4.08.0"
+#    ;
+#    standard_library_default =
+#      "C:/cygwin/home/appveyor/.opam/ocaml-variants.4.08.0+mingw64c/lib/ocaml"
+#    ;
+#    standard_library =
+#      "C:/OCaml64/home/Brian/.opam/ocaml-variants.4.08.0+mingw64c/lib/ocaml"
+#    ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#    ; ccomp_type = "cc"
+#    ; c_compiler = "x86_64-w64-mingw32-gcc"
+#    ;
+#    ocamlc_cflags =
+#      [ "-march=x86-64"; "-mtune=generic"; "-O2"; "-mms-bitfields" ]
+#    ;
+#    ocamlopt_cflags =
+#      [ "-march=x86-64"; "-mtune=generic"; "-O2"; "-mms-bitfields" ]
+#    ;
+#    bytecomp_c_compiler =
+#      [ "x86_64-w64-mingw32-gcc"
+#      ; "-march=x86-64"
+#      ; "-mtune=generic"
+#      ; "-O2"
+#      ; "-mms-bitfields"
+#      ]
+#    ; bytecomp_c_libraries = [ "-lws2_32"; "-lversion" ]
+#    ;
+#    native_c_compiler =
+#      [ "x86_64-w64-mingw32-gcc"
+#      ; "-march=x86-64"
+#      ; "-mtune=generic"
+#      ; "-O2"
+#      ; "-mms-bitfields"
+#      ]
+#    ; native_c_libraries = [ "-lws2_32"; "-lversion" ]
+#    ; cc_profile = []
+#    ; architecture = "amd64"
+#    ; model = "default"
+#    ; int_size = 63
+#    ; word_size = 64
+#    ; system = "mingw64"
+#    ; asm = [ "x86_64-w64-mingw32-as" ]
+#    ; asm_cfi_supported = false
+#    ; with_frame_pointers = false
+#    ; ext_exe = ".exe"
+#    ; ext_obj = ".o"
+#    ; ext_asm = ".s"
+#    ; ext_lib = ".a"
+#    ; ext_dll = ".dll"
+#    ; os_type = "Win32"
+#    ; default_executable_name = "camlprog.exe"
+#    ; systhread_supported = true
+#    ; host = "x86_64-w64-mingw32"
+#    ; target = "x86_64-w64-mingw32"
+#    ; profiling = false
+#    ; flambda = false
+#    ; spacetime = false
+#    ; safe_string = false
+#    ; exec_magic_number = "Caml1999X025"
+#    ; cmi_magic_number = "Caml1999I025"
+#    ; cmo_magic_number = "Caml1999O025"
+#    ; cma_magic_number = "Caml1999A025"
+#    ; cmx_magic_number = "Caml1999Y025"
+#    ; cmxa_magic_number = "Caml1999Z025"
+#    ; ast_impl_magic_number = "Caml1999M025"
+#    ; ast_intf_magic_number = "Caml1999N025"
+#    ; cmxs_magic_number = "Caml1999D025"
+#    ; cmt_magic_number = "Caml1999T025"
+#    ; natdynlink_supported = true
+#    ; supports_shared_libraries = true
+#    ; windows_unicode = true
+#    }
+#  ;
+#  which =
+#    map
+#      {
+#      "ocaml" :
+#        Some
+#          External
+#            "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocaml.exe"
+#      ;
+#      "ocamlc" :
+#        Some
+#          External
+#            "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlc.opt.exe"
+#      ;
+#      "ocamlobjinfo" :
+#        Some
+#          External
+#            "C:\\OCaml64\\home\\Brian\\.opam\\ocaml-variants.4.08.0+mingw64c\\bin\\ocamlobjinfo.opt.exe"
+#      }
+#  }
+# Workspace root: "C:\\OCaml64\\home\\Brian\\ocaml-project\\assignment2"
