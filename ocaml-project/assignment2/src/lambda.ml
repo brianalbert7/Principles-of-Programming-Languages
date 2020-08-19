@@ -9,34 +9,36 @@ let fresh s =
   r := !r + 1;
   s ^ (string_of_int v)
 
-(* Your implementation begins from here *)
 
+(* mem e l returns true if the element e is present in the list. Otherwise, it returns false. *)
 let mem e l =
   List.fold_left(fun x a -> if a = e then true else x) false l ;;
 
 
-
+(* remove e l returns a list l' with all the element in l except e. remove also preserves the order of the elements not removed. If e is not present in l, then return l. *)
 let remove e l =
   List.fold_right(fun x a -> if x = e then a else x::a) l [] ;;
 
 
-
+(* remove_stutter l removes stutters from a list *)
 let rec remove_stutter l = 
   match l with
   | [] -> []
   | h::[] -> h::[]
   | h1::h2::t -> if h1 = h2 then (remove_stutter (h2::t)) else h1::(remove_stutter (h2::t)) ;;
 
+
+(* union l1 l2 performs set union of elements in l1 and l2. The elements in the result list l will be lexicographically sorted. *)
 let union l1 l2 =
   remove_stutter (List.sort String.compare (l1@l2)) ;;
 
 
-
+(* add e l does a set addition of element e to list l and returns a list. The resultant list is sorted. *)
 let add e l =
   remove_stutter (List.sort compare (e::l)) ;;
 
 
-
+(* returns the free variables in the given lambda term. *)
 let rec free_variables e =
   match e with
   | Var x -> [x]
@@ -44,7 +46,7 @@ let rec free_variables e =
   | Lam (x, e0) -> remove x (free_variables e0) ;;
 
 
-
+(* substitute e x v does e[v/x] *)
 let rec substitute expr a b =
   match expr with
   | Var x -> 
@@ -62,7 +64,7 @@ let rec substitute expr a b =
       Lam (z, substitute e0' a b) ;;
 
 
-
+(* does a single step of the call-by-value reduction. Recall that call-by-value reduction is determinisitic. Hence, if reduction is possible, then a single rule applies.  *)
 let rec reduce_cbv e =
   match e with
   (Var _|Lam (_, _)) -> e, false
@@ -80,7 +82,7 @@ let rec reduce_cbv e =
     ;;
 
 
-
+(* Implement a single step of the call-by-name reduction. *)
 let rec reduce_cbn e =
   match e with
   | App (Lam (x, e), e2) -> (substitute e x e2, true)
@@ -98,7 +100,7 @@ let rec reduce_cbn e =
 
 
 
-
+(* Implement a single step of the normal order reduction. *)
 let rec reduce_normal e =
   match e with
   | App (Lam (x, e), e2) -> (substitute e x e2, true)
@@ -117,7 +119,8 @@ let rec reduce_normal e =
   | _ -> (e, false) ;;
 
 
-(* Your implementation done here *)  
+
+
 
 (* Debug your code by printing out evaluation results *)
 let rec eval log depth reduce expr =
