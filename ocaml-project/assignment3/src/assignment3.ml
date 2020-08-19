@@ -54,6 +54,12 @@ let rec loop n t dll =
   match t with 
     | [] -> dll
     | h::t -> let n = insert_after n h in loop n t dll ;; 
+    
+    
+(** [dll_of_list l] returns a new doubly linked list with the list of 
+      elements from the OCaml (singly linked) list [l]. 
+    val dll_of_list : 'a list -> 'a element option ref
+*)
 let dll_of_list l =
   let dll = create() in 
   match l with 
@@ -61,27 +67,43 @@ let dll_of_list l =
     | h::t -> let n = insert_first dll h in loop n t dll ;;
 
 
+(** [list_of_dll t] returns a new OCaml (singly linked) list with the list of 
+      elements from the doubly linked list [t]. 
+      Hint: Use [iter] to implement it.
+    val dll_of_list : a element option ref -> 'a list
+*)
 let list_of_dll l =
   let list = ref [] in 
   let _ = iter l (fun e -> list := !list@[e.content]) in !list ;; 
 
 
+(** Returns the length of the list. 
+*)
 let length l =
   let x = ref 0 in
   let _ = iter l (fun e -> x := !x + 1) in !x ;;
 
 
+(** Given a doubly linked list [t] = [1->2], [duplicate t] returns [1->1->2->2]. 
+      [t] should reference the head of the duplicatd doubly linked list after the function returns.
+    val duplicate : 'a element option ref -> unit
+*)
 let duplicate l =
   iter l (fun e -> insert_after e e.content);;
 
+
+(** [reverse t] reverses a doubly linked list [t] in-place. 
+      [t] should reference the head of the reversed doubly linked list after the function returns.
+    val reverse : 'a element option ref -> unit
+*)
 let reverse l =
   iter l (fun e -> remove l e ; insert_first l e.content) ;;
 
 (******************** Problem 2 ********************)
 
 module type Serializable = sig
-  type t
-  type content
+  type t        (* The type of a serializable data structure e.g. list and array *)
+  type content  (* The type of nodes (e.g. list nodes or array cells) stored in the serializable data structure *)
 
   val string_of_t : t -> string
 
@@ -89,8 +111,8 @@ module type Serializable = sig
 end
 
 module SerializableList (C : Serializable) = struct
-  type t = C.t list
-  type content = C.t
+  type t = C.t list   (* The serializable data structure is a list *)
+  type content = C.t  (* Each node of the serializable data structure has a type C.t *)
 
   let string_of_t l =
     let rec loop acc l = match l with
